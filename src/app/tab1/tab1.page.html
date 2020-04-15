@@ -1,4 +1,7 @@
 <ion-content [fullscreen]="true">
+  <ion-refresher slot="fixed" (ionRefresh)="doRefresh($event)">
+    <ion-refresher-content></ion-refresher-content>
+  </ion-refresher>
   <ion-card class="mt-0" [routerLink]="['/single']">
     <!--<div class="bg-ion-img">
       <img src="https://bordalo.observador.pt/400x,q85/https://s3.observador.pt/wp-content/uploads/2020/04/09154157/GettyImages-1208232247-scaled_770x433_acf_cropped-1.jpg" alt=""/>
