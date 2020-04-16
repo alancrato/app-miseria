@@ -1,3 +1,54 @@
 ion-content ion-toolbar {
   --background: translucent;
 }
+
+ion-list-header{
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+
+ion-label{
+  white-space: inherit !important;
+}
+
+ion-item{
+  margin-bottom: 1rem;
+}
+
+.title-avatar{
+  font-size: 1rem;
+  font-weight: 200;
+  margin-bottom: 5px;
+}
+
+.title-avatar strong{
+  color: #57a0d7;
+}
+
+.title-column{
+  font-size: 0.9rem;
+  line-height: 1.4;
+  font-weight: 300;
+  text-transform: none;
+  color: #000000e3;
+}
+
+.mt-1{
+  margin-top: 1rem;
+}
+
+.mb-1{
+  margin-bottom: 1rem;
+}
+
+.shadow{
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.title-pub{
+  color: #00000059;
+  font-size: 0.7rem;
+  font-weight: 400;
+  margin: 5px 0;
+}
