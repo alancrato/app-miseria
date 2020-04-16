@@ -17,7 +17,6 @@ export class TabsPage {
 
   async presentLoading() {
     const loading = await this.loadingController.create({
-      message: 'Please wait...',
       duration: 2000
     });
     await loading.present();

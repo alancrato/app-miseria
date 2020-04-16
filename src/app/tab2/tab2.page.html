@@ -1,17 +1,29 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 2
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-list>
+    <ion-list-header>
+      Colunas/Blogs
+    </ion-list-header>
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+    <ion-item>
+      <ion-avatar slot="start">
+        <img src="https://www.miseria.com.br/wp-content/themes/miseria/assets/img/collumns/felipe-azevedo.jpg" alt="Felipe Azevedo">
+      </ion-avatar>
+      <ion-label>
+        <h2>Felipe Azevedo</h2>
+        <h3>Política</h3>
+        <p>Em meio ao coronavírus, prefeitos do Cariri se preparam para alta de casos de dengue</p>
+      </ion-label>
+    </ion-item>
+
+    <ion-item>
+      <ion-avatar slot="start">
+        <img src="https://www.miseria.com.br/wp-content/themes/miseria/assets/img/collumns/madson.jpg" alt="Madson Vagner">
+      </ion-avatar>
+      <ion-label>
+        <h2>Madson Vagner</h2>
+        <h3>e-Política</h3>
+        <p>Em Assaré, disputa interna ameaça unidade da oposição</p>
+      </ion-label>
+    </ion-item>
+  </ion-list>
 </ion-content>

@@ -2,10 +2,20 @@
   <ion-split-pane contentId="main-content">
     <ion-menu menuId="first" contentId="main-content" type="overlay">
       <ion-content>
-        <ion-list id="inbox-list">
-          <ion-list-header>Inbox</ion-list-header>
-          <ion-note>hi@ionicframework.com</ion-note>
 
+        <ion-card color="primary">
+          <ion-card-header>
+            <ion-card-title><img src="assets/icone.png"/> Site Miséria</ion-card-title>
+            <ion-card-subtitle>Aconteceu? Tá no Miséria</ion-card-subtitle>
+          </ion-card-header>
+          <ion-card-content>
+            Quer reproduzir nosso conteúdo? Estabeleça uma parceria conosco.
+            <div class="divider"></div>
+            Acessar como Parceiro
+          </ion-card-content>
+        </ion-card>
+
+        <ion-list id="inbox-list">
           <ion-menu-toggle auto-hide="false" *ngFor="let p of appPages; let i = index">
             <ion-item (click)="selectedIndex = i" routerDirection="root" [routerLink]="[p.url]" lines="none" detail="false" [class.selected]="selectedIndex == i">
               <ion-icon slot="start" [ios]="p.icon + '-outline'" [md]="p.icon + '-sharp'"></ion-icon>

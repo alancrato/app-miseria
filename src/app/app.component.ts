@@ -13,34 +13,54 @@ export class AppComponent {
   public selectedIndex = 0;
   public appPages = [
     {
-      title: 'Inbox',
-      url: '/folder/Inbox',
-      icon: 'mail'
+      title: 'home',
+      url: '/',
+      icon: 'home'
     },
     {
-      title: 'Outbox',
-      url: '/folder/Outbox',
-      icon: 'paper-plane'
+      title: 'Últimas',
+      url: '/folder',
+      icon: 'document-text'
     },
     {
-      title: 'Favorites',
-      url: '/folder/Favorites',
-      icon: 'heart'
+      title: 'Cariri',
+      url: '/folder',
+      icon: 'documents'
     },
     {
-      title: 'Archived',
-      url: '/folder/Archived',
-      icon: 'archive'
+      title: 'Polícia',
+      url: '/folder',
+      icon: 'documents'
     },
     {
-      title: 'Trash',
-      url: '/folder/Trash',
-      icon: 'trash'
+      title: 'Política',
+      url: '/folder',
+      icon: 'documents'
     },
     {
-      title: 'Spam',
-      url: '/folder/Spam',
-      icon: 'warning'
+      title: 'Tv Miséria',
+      url: '/folder',
+      icon: 'film'
+    },
+    {
+      title: 'Colunas',
+      url: '/folder',
+      icon: 'people-circle'
+    },
+    {
+      title: 'Esportes',
+      url: '/folder',
+      icon: 'documents'
+    },
+    {
+      title: 'Região',
+      url: '/folder',
+      icon: 'documents'
+    },
+    {
+      title: 'Vc Viu?',
+      url: '/folder',
+      icon: 'documents'
     }
   ];
   constructor(
