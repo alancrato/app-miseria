@@ -1,8 +1,8 @@
 {
-  "name": "app-miseria",
+  "name": "app-observador",
   "version": "0.0.1",
-  "author": "Site Miséria",
-  "homepage": "https://miseria.com.br/",
+  "author": "Ionic Framework",
+  "homepage": "https://ionicframework.com/",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -52,5 +52,5 @@
     "tslint": "~5.15.0",
     "typescript": "~3.4.3"
   },
-  "description": "Site Miséria"
+  "description": "An Ionic project"
 }
